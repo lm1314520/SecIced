@@ -1,0 +1,9 @@
+[package]
+name = "class2"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+iced = {version="0.13.1",features = ["canvas","advanced","tokio"]}
+serde = { version = "1.0.216", default-features = false, features = ["derive"] }
+chrono = "0.4"
